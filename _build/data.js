@@ -7,8 +7,8 @@ const college = {
   place: 'Seoni, Madhya Pradesh',
   tagline: 'Higher education for the heart of Madhya Pradesh',
   address: 'Govt. PG College, Seoni, Madhya Pradesh – 480661',
-  phone: '+91 00000 00000',
-  email: 'college@example.com',
+  phone: '+91 7869231186',
+  email: 'ahmedophyy@example.com',
   hours: 'Mon – Sat, 10:30 AM – 4:30 PM',
   mapQuery: 'Govt PG College Seoni Madhya Pradesh'
 };
@@ -151,12 +151,12 @@ const faqs = {
 };
 
 const examDates = [
-  ['Internal assessment / class tests', '23 – 28 Nov 2026', 'All UG & PG students'],
-  ['Practical exams (Science)', '07 – 12 Dec 2026', 'B.Sc. & M.Sc.'],
-  ['Admit cards available online', 'From 05 Dec 2026', 'All students'],
-  ['Theory examinations begin', '15 Dec 2026', 'As per university time-table'],
-  ['Theory examinations end', '05 Jan 2027 (approx.)', 'As per university time-table'],
-  ['Result declaration', 'Feb 2027 (expected)', 'Announced by the university']
+  ['Internal assessment / class tests', '23 – 28 Sept 2026', 'All UG & PG students'],
+  ['Practical exams (Science)', '07 – 12 Jan 2026', 'B.Sc. & M.Sc.'],
+  ['Admit cards available online', 'From 05 May 2026', 'All students'],
+  ['Theory examinations begin', '15 June 2026', 'As per university time-table'],
+  ['Theory examinations end', '05 July 2027 (approx.)', 'As per university time-table'],
+  ['Result declaration', 'Oct 2027 (expected)', 'Announced by the university']
 ];
 
 module.exports = { college, director, stats, notices, courses, professors, departments, gallery, faqs, examDates };

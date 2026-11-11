@@ -8,12 +8,12 @@ window.COLLEGE = {
   // WhatsApp number that receives admission forms and enquiries.
   // Format: country code + number, digits only. Example for India: "919876543210"
   // Leave empty ("") while testing: the form then just shows the message instead of opening WhatsApp.
-  whatsappNumber: "",
+  whatsappNumber: "91+7869231186",
 
   // Official links. Leave empty ("") and the button shows "Link will be updated soon".
-  admitCardUrl: "",
-  resultUrl: "",
+  admitCardUrl: "https://rssu.icrp.in/erp/",
+  resultUrl: "http://rss.result.hamaripariksha.com/RSS/SearchResult.aspx",
 
   // Shows a small "sample content" tag in the corner. Set to false after you replace the sample details.
-  showDemoNotice: true
+  showDemoNotice: false
 };

@@ -54,13 +54,13 @@ function footer() {
 <div><h4>Quick links</h4><ul><li><a href="about.html">About the college</a></li><li><a href="courses.html">Courses</a></li><li><a href="departments.html">Departments</a></li><li><a href="professors.html">Professors</a></li><li><a href="gallery.html">Photo gallery</a></li></ul></div>
 <div><h4>Students</h4><ul><li><a href="admission.html">Admission</a></li><li><a href="exam.html">Exam dates &amp; admit card</a></li><li><a href="result.html">Results</a></li><li><a href="contact.html">Contact us</a></li></ul></div>
 <div><h4>Contact</h4><ul><li>${esc(C.address)}</li><li>${esc(C.phone)}</li><li>${esc(C.email)}</li><li>${esc(C.hours)}</li></ul></div>
-</div><div class="footer-bottom"><span>&copy; <span data-year>2026</span> ${esc(C.name)}. All rights reserved.</span><span>Demo website with sample content: replace details before publishing.</span></div></div></footer>
+</div><div class="footer-bottom"><span>&copy; <span data-year>2026</span> ${esc(C.name)}.Developed By Mohd Ahmed</span></div></div></footer>
 <a class="wa-fab" aria-label="Chat on WhatsApp" href="#" target="_blank" rel="noopener">${I.wa}</a>`;
 }
 
 function page(file, o) {
   const title = o.home ? `${C.name} | Arts, Commerce & Science College` : `${o.title} | ${C.name}`;
-  const hero = o.home ? o.heroHtml : `<section class="page-hero"><img class="hero-bg" src="assets/img/hero.svg" alt="" width="1600" height="900" decoding="async"><div class="page-hero-inner"><div class="crumbs"><a href="index.html">Home</a> &rsaquo; ${esc(o.crumb || o.title)}</div><h1>${esc(o.h1 || o.title)}</h1><p>${esc(o.sub || '')}</p></div></section>`;
+  const hero = o.home ? o.heroHtml : `<section class="page-hero"><img class="hero-bg" src="assets/img/Hero.webp" alt="" width="1600" height="900" decoding="async"><div class="page-hero-inner"><div class="crumbs"><a href="index.html">Home</a> &rsaquo; ${esc(o.crumb || o.title)}</div><h1>${esc(o.h1 || o.title)}</h1><p>${esc(o.sub || '')}</p></div></section>`;
   const html = `<!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
